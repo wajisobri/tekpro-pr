@@ -1,7 +1,14 @@
 package TugasWeek7.AnotherEmployee;
 
+//****************************************************************
+// Represents the personnel staff of a particular business.
+//****************************************************************
 public class Staff {
 	StaffMember[] staffList;
+	
+	//----------------------------------------------------------------
+	//    Sets up the list of staff members.
+	//----------------------------------------------------------------
 	
 	public Staff() {
 		// staffList = new StaffMember[6];
@@ -27,6 +34,9 @@ public class Staff {
 		((Commission)staffList[7]).addSales(950);
 	}
 	
+	//----------------------------------------------------------------
+	//    Pays all staff members.
+	//----------------------------------------------------------------
 	public void payday() {
 		double amount;
 		
